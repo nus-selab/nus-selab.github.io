@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
+
+
 <div class="home other-pages">
+  <a class="page-link" href="{{ '/blog_archive.html' | relative_url }}""><b>Blog Post Archives</b></a> | 
+  <a class="page-link" href="{{ '/tags.html' | relative_url }}""><b>Sort by Tags</b></a> 
+  <br/>  <br/>  
+
   <ul class="post-list">
     <!-- Generate homepage's blog post preview list -->
     {% for post in site.posts %}
